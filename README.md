@@ -11,21 +11,22 @@ Para material valioso personalmente yo excluyo cualquier película, series, nove
 Non obstante dejo completa libertad de lo que cada uno considera importante y digno de ser puesto a salvo.  
 Voy a poner a disposición una lista de enlaces de canales y sitios web con material que to considero importante, luego cada uno haga lo que considera oportuno.  
   
-¿**Porqué en español en lugar que el inglés?  
-**Esta es otra corazonada. Me parece que el inglés va a terminar como el latín, y por lo tanto me centro en lo que yo considero oportuno… y considerar que este no es mi idioma madre ni lo hablo ni lo escribo particularmente bien.  
+**¿Porqué en español en lugar que el inglés?**  
+Esta es otra corazonada. Me parece que el inglés va a terminar como el latín, y por lo tanto me centro en lo que yo considero oportuno… y considerar que este no es mi idioma madre ni lo hablo ni lo escribo particularmente bien.  
 Pero considero que el español va a ser el idioma más importante dentro de poco tiempo, mientra que el inglés va a perder su papel de lengua internacional.  
 Repito... Es una corazonada, no tengo explicaciones plausibles para ofrecer.  
 Así que si alguien quiere traducir al inglés, u otro idioma, este trabajo, es libre de hacerlo.  
   
-¿**Porqué Bash en lugar de C++ o python o javascript o…. ?**  
-Por simplicidad. Considera esto.  
-En un futuro habrá algún desarrollador novato que tendrá una copia de AP en si equipo obsoleto, no tendrá internet para hacer búsquedas en stakoverflow ni tendrá acceso a todas las librerías de pro ejemplo C# o python (pip install ... no funciona sin internet a menos que no tengas un mirror local)  
-Así que me he basado en el mismo sistema operativo linux. Como hace para hacer funcionar lo básico? Script de shell, y la shell que hay por defecto es Bash.  
+**¿Porqué Bash en lugar de C++ o python o javascript o…. ?**  
+Por simplicidad. 
+Considera esto:  
+En un futuro habrá algún desarrollador novato que tendrá una copia de AP en su equipo obsoleto, no tendrá internet para hacer búsquedas en stakoverflow ni tendrá acceso a todas las librerías de pro ejemplo C# o python (pip install ... no funciona sin internet a menos que no tengas un mirror local)  
+Así que me he basado en el mismo sistema operativo Gnu/Linux. Como hace para hacer funcionar lo básico? Script de shell, y la shell que hay por defecto, es Bash.  
 Por esto he pensado que programar en Bash es lo ideal. Viene por defecto, tiene todo lo necesario en el sistema mismo, es relativamente fácil de usar y la eficiencia o la velocidad no es fundamental en nuestro caso. Para un escenario así lo importante es que funcione y sea fácil de modificar si hace falta, aunque sea 10 veces mas lento.  
 Si tienes que salir en un monte sin carretera con un coche, es mejor usar un todoterreno que un ferrari o un porche.  
   
-¿**Porqué HTML?  
-**Hay motivos:  
+**¿Porqué HTML?**  
+Hay motivos:  
 1) En bash es muy fácil generar páginas web estáticas  
 2) servir una pagina html es mucho más liviano que una dinámicas para un servidor  
 3) no necesitamos de ninguna interacción a parte poder leer paginas o ver videos  
@@ -38,7 +39,7 @@ Pero este proyecto es para tiempos bastante oscuros donde hay muchos problemas e
 Así que lo más sensato es usar sistemas que puedan funcionar por todas partes sin tener acceso a internet.  
 En el momento en que escribo todavía no tenemos un sistema de instalación totalmente offline, pero estamos en ello y espero tenerlo pronto.  
   
-¿**Debian 11?**  
+**¿Debian 11?**  
 Pero no todo es Ubuntu, tenemos también a Debian 11 que estamos usando en AP Extra 1 junto con Yunohost.  
 Claramente he tenido que instalar todos los firmware non-free disponibles. Esto ha sido necesario para asegurarme que AP-Extra 1 funcione con cualquier hardware no demasiado reciente.  
 El día que Yunohost pase a Debian12, haremos una actualización.
